@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JKIMFrameWork'
-  s.version          = '0.1.0'
+  s.name             = 'JKIMFrameWorkTest'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of JKIMFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -23,20 +23,20 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/韩志远/JKIMFrameWork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = "MIT"
   s.author           = { '韩志远' => 'hanzhiyuan@tuhu.cn' }
-  s.source           = { :git => 'https://github.com/韩志远/JKIMFrameWork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HDClear/JKIMFrameWorkTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # s.ios.deployment_target = '8.0'
   s.platform     = :ios, "8.0"
 
-  s.source_files = 'JKIMFrameWork/Classes/**/*.{h,m}'
+  s.source_files = 'JKIMFrameWork/JKIMFrameWork/Classes/**/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
-  s.public_header_files = 'JKIMFrameWork/Frameworks/**/*.h'
+  s.public_header_files = 'JKIMFrameWork/JKIMFrameWork/Frameworks/**/*.h'
   
   #s.ios.vendored_frameworks = 'JKIMFrameWork/Frameworks/**/*.framework'
-  s.ios.vendored_libraries = 'JKIMFrameWork/Frameworks/**/*.a'
+  s.ios.vendored_libraries = 'JKIMFrameWork/JKIMFrameWork/Frameworks/**/*.a'
 
   s.libraries = "resolv", "xml2"
 
